@@ -1,0 +1,22 @@
+.tooltip {
+  display: none;
+  margin-top: 10px;
+  margin-left: 630px;
+  text-align: center;
+  /* align-items: center; */
+
+  justify-content: center;
+  /* margin-left: -30px; */
+  width: 160px;
+  border: 1px solid black;
+  border-radius: 20px;
+  height: 50px;
+  background-color: rgb(241, 241, 229);
+  color: black;
+  /* position: absolute; */
+}
+#myDiv {
+  text-align: center;
+  margin: 20px;
+  /* margin-top: 50px; */
+}
