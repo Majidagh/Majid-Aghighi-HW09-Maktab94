@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "EstedadM";
+  src: url("fonts/EstedadMedium.ttf");
+}
+
+@font-face {
+  font-family: "EstedadR";
+  src: url("fonts/EstedadRegular.ttf");
+}
+
+@font-face {
+  font-family: "EstedadB";
+  src: url("fonts/EstedadBold.ttf");
+}
+
+.white-space-nowrap {
+  white-space: nowrap;
+}
+
+.food-modal {
+  position: absolute;
+  top: 420px;
+  left: 20%;
+  transform: translateX(-50%);
+}
+
+.responsive-width {
+  width: 100%;
+}
+
+@media (min-width: 1000px) {
+  .responsive-width {
+    width: 50%;
+  }
+}
